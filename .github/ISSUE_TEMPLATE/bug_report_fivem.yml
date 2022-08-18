@@ -49,8 +49,8 @@ body:
         - Beta
         - Latest (Unstable, Canary)
         - Built from source
-  validations:
-    required: true
+    validations:
+      required: true
   - type: input
     id: versions-extra
     attributes:
