@@ -41,7 +41,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: build
+    id: build-channel
     attributes:
       label: Build channel
       options:
