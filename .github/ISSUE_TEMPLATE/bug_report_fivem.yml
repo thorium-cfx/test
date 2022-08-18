@@ -37,8 +37,20 @@ body:
         - 2189
         - 2060
         - 1604
+      render: bash
     validations:
       required: true
+  - type: dropdown
+    id: build
+    attributes:
+      label: Build channel
+      options:
+        - Release
+        - Beta
+        - Latest (Unstable, Canary)
+        - Built from source
+  validations:
+    required: true
   - type: input
     id: versions-extra
     attributes:
