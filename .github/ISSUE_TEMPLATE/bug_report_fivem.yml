@@ -42,10 +42,10 @@ body:
     attributes:
       label: Reproduction steps
       description: This is important to us. Please fill out the exact steps you took, also make sure these actually result in the same result this bug report is about.
-      value: 1. 
-        2. 
-        3. 
-        4. 
+      value: 1. \n
+        2. \n
+        3. \n
+        4. \n
   - type: checkboxes
     id: terms
     attributes:
