@@ -40,12 +40,17 @@ body:
     id: logs
     attributes:
       label: Reproduction steps
-      description: This is important to us. Please fill out the exact steps you took, also make sure these actually result in the same result this bug report is about.
-      value: |
+      description: |
+        This is important to us. Fill in the exact steps you took, test and remove any steps that aren't relevant.
+        Also make sure these actually result in the same result this bug report is about.
+        Issues that fail to deliver these steps may be closed without any feedback.
+      placeholder: |
         1. 
         2. 
         3. 
         4. 
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
