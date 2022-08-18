@@ -26,24 +26,32 @@ body:
   - type: dropdown
     id: game-version
     attributes:
-      label: Game Version
-      description: What version of software are you running?
+      label: Game version
+      description: Which version(s) of GTA 5 is this issue related to?
       multiple: true
       options:
         - 2699
         - 2545
         - 2189
-        - N/A
+        - 2372
+        - 2189
+        - 2060
+        - 1604
     validations:
       required: true
+  - type: input
+    id: versions-extra
+    attributes:
+      description: Please fill in the versions if this issue is related to any specific build.
+      placeholder: FiveM v1.0.0.5817, Server v1.0.0.5817
   - type: textarea
-    id: logs
+    id: repro
     attributes:
       label: Reproduction steps
       description: |
         This is important to us. Fill in the exact steps you took, test and remove any steps that aren't relevant.
         Also make sure these actually result in the same result this bug report is about.
-        Issues that fail to deliver these steps may be closed without any feedback.
+        Issues reports that fail to deliver these steps may be closed without any feedback.
       placeholder: |
         1. 
         2. 
