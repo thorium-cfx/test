@@ -37,7 +37,6 @@ body:
         - 2189
         - 2060
         - 1604
-      render: bash
     validations:
       required: true
   - type: dropdown
@@ -70,6 +69,7 @@ body:
         2. 
         3. 
         4. 
+      render: bash
     validations:
       required: true
   - type: checkboxes
