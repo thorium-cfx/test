@@ -69,7 +69,7 @@ body:
     id: versions-extra
     attributes:
       label: Specific version
-      description: Please fill in the versions if this issue is related to any specific build.
+      description: Please fill in the specific version(s) if this issue is related to any specific build.
       placeholder: FiveM v1.0.0.5817, Server v1.0.0.5817
   - type: checkboxes
     id: terms
