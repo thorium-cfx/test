@@ -18,10 +18,10 @@ body:
     validations:
       required: true
   - type: input
-    id: what-was-expected
+    id: expectation
     attributes:
-      label: What did you expect would happen?
-      description: Also tell us, what did you expect to happen?
+      label: Expectation
+      description: What were you expecting to happen instead?
     validations:
       required: true
   - type: dropdown
@@ -29,6 +29,7 @@ body:
     attributes:
       label: Game Version
       description: What version of software are you running?
+      multiple: true
       options:
         - 2699
         - 2545
@@ -39,9 +40,12 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Reproduction steps
+      description: This is important to us. Please fill out the exact steps you took, also make sure these actually result in the same result this bug report is about.
+      value: 1. |
+        2. |
+        3. |
+        4. |
   - type: checkboxes
     id: terms
     attributes:
