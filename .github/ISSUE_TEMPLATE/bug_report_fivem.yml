@@ -30,10 +30,10 @@ body:
       label: Game Version
       description: What version of software are you running?
       options:
-	  	- 2699
-	  	- 2545
+        - 2699
+        - 2545
         - 2189
-		- N/A
+        - N/A
     validations:
       required: true
   - type: textarea
