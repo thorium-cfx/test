@@ -74,11 +74,3 @@ body:
       label: Specific version
       description: Please fill in the specific version(s) if this issue is related to any specific build.
       placeholder: FiveM v1.0.0.5817, Server v1.0.0.5817
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
